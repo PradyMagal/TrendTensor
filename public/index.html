@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en" class="sl-theme-dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TrendTensor AI</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.15.0/cdn/themes/dark.css" />
+    <script type="module" src="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.15.0/cdn/shoelace-autoloader.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jersey+25&family=Lato:wght@700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jacquard+24&display=swap" rel="stylesheet">    
+    <link href="styles/styles.css" rel="stylesheet">
+    <script src="scripts/sendout.js"></script>
+</head>
+<body>
+    <h1>Outfit Ideas from <b>Any Photo</b>.</h1>
+    <sl-alert id="noturl" variant="danger" duration="3000" closable>
+        <sl-icon slot="icon" name="info-circle"></sl-icon>
+        Please Enter a valid URL
+      </sl-alert>
+      <sl-alert id="fail" variant="warning" duration="3000" closable>
+        <sl-icon slot="icon" name="exclamation-circle"></sl-icon>
+        Something Went Wrong on our Server side, check the image URL you used or try again later
+      </sl-alert>
+    <div class="inContain">
+        <sl-input id="urlin" size="large" placeholder="Paste an image URL here:" clearable></sl-input>
+        <sl-radio-group id="radiogroup" name="a" value="1">
+            <sl-radio-button value="men">Men</sl-radio-button>
+            <sl-radio-button value="women">Women</sl-radio-button>
+            <sl-radio-button value="uni">Unisex/IDC</sl-radio-button>
+          </sl-radio-group>          
+          <sl-progress-bar indeterminate id="loadingProgressBar" style="display: none; width: 100%;"></sl-progress-bar>
+        <sl-button onclick="sendImgReq()" id="searchbutton" size="large">
+            <sl-icon slot="suffix" name="search"></sl-icon>
+            Get Inspo
+          </sl-button>
+    </div>
+    <div class="resultContain">
+       
+    </div>
+    
+
+
+</body>
+</html>
