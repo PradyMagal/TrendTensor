@@ -17,10 +17,11 @@ Welcome to TrendTensor AI, a revolutionary tool designed to inspire your fashion
 
 ## Technologies Used
 
-- **OpenAI GPT-4**: Powers the backend AI, providing intelligent and context-aware fashion advice.
+- **OpenAI GPT-4**: Powers the backend AI, providing intelligent and context-aware fashion suggestions.
 - **Shoelace**: A collection of professionally designed, high-quality components built on a foundation of web components.
-- **Node.js**: For the server-side logic that interacts with the AI models and handles user requests.
+- **Node.js/Express**: For the server-side logic that interacts with the AI models and handles user requests.
 - **Immaga API**: For analyzing images with the power of AI
+- **SerpAPI**: For obtaining Google Shopping Results
 
 ## Coming Soon
 
