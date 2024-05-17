@@ -1,9 +1,9 @@
 # TrendTensor AI
 
-Made by:
+Developers:
 
-**Pradyun Magal (BS Technology and Information Management, Minor Computer Science) & 
-Jasmine Liang (BS Computer Science: Computer Game Design) UC, Santa Cruz**
+- Pradyun Magal (BS Technology and Information Management, Minor Computer Science) _Project Lead/Full Stack Developer_
+- Jasmine Liang (BS Computer Science: Computer Game Design) UC, Santa Cruz _Assistant Developer_
 
 
 Welcome to TrendTensor AI, a revolutionary tool designed to inspire your fashion choices with just a simple image. This innovative application utilizes cutting-edge AI technology to analyze any photograph and generate personalized outfit ideas.
